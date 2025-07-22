@@ -3,10 +3,10 @@ var arr=["abc",23,"test",true,34.0];
 console.log(arr);
 
 
-arr.unshift("new key");
+arr.unshift("new key");  //added at first
 console.log(arr);
 arr.shift();
-console.log(arr);
+console.log(arr); // remove at first elem
 
 arr.pop();
 console.log(arr);
